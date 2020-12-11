@@ -1,1 +1,1 @@
-web: gunicorn FinanceApp:server
+web: gunicorn -b :$PORT app:app
