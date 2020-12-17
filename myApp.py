@@ -42,7 +42,13 @@ def refresh_data():
 
 list,df,table_df,last_date_available=refresh_data()
 
-app = dash.Dash(__name__)
+#app = dash.Dash(__name__)
+
+
+app = dash.Dash(
+    __name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}]
+)
+
 server = app.server
 
 Ticker_options = []
