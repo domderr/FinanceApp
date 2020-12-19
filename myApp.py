@@ -18,7 +18,7 @@ import numpy as np
 
 def refresh_data():
     d = {'Ticker': ['SPY', 'QQQ','DIA','IWN','XLB','XLE','XLF','XLI','XLK','XLP','XLU','XLY','XLV'],
-     'Name': ['S&P 500', 'Nasdaq','DowJones','Russel','Basic Materials','Energy','Financials','Industrials','Tecnology',
+     'Name': ['S&P 500', 'Nasdaq','DowJones','Russel','Basic Materials','Energy','Financials','Industrials','Technology',
              'Staples','Utilities','Discretionay','Health Care']}
 
     list= pd.DataFrame(data=d)
